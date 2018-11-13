@@ -1,0 +1,15 @@
+SELECT g.id, g.gamename, g.sellday,
+'www. getchu .com/ soft . phtml ?id=' || g.comike as links
+FROM gamelist g
+WHERE g.comike is NOT NULL
+ORDER BY g.sellday
+
+
+SELECT g.comike
+FROM gamelist g
+WHERE g.comike is NOT NULL
+ORDER BY g.sellday DESC
+
+http://www.getchu.com/brandnew/762170/rc762170package.jpg
+
+http://www.getchu.com/brandnew/762170/c762170chara2.jpg
